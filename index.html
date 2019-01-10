@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AnimationTraining</title>
+</head>
+<body>
+    <div id="jsi_open-button" class="open-button"></div>
+    <div id="jsi_modal" class="modal none">
+        <button id="jsi_close-button" class="close-button"></button>
+    </div>
+    <script>
+        document.getElementById("jsi_open-button").onclick = function () {
+            document.getElementById('jsi_modal').classList.remove('none');
+        };
+
+        document.getElementById("jsi_close-button").onclick = function () {
+            document.getElementById('jsi_modal').classList.add('none');
+        };
+    </script>
+</body>
+</html>

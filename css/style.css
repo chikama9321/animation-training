@@ -1,0 +1,34 @@
+.open-button {
+    width: 48px;
+    height: 48px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;;
+}
+
+.close-button {
+    width: 48px;
+    height: 48px;
+    background-color: plum;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 2;
+}
+
+.none {
+    display: none;
+}
